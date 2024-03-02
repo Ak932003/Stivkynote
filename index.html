@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>| Sticky Notes |</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container1">
+            <button onclick="typeNote()" class="btn btn-success">Create Note</button>
+        </div>
+        <div class="container2"></div>
+        <div class="container3">
+            <form>
+                <textarea id="note-text" placeholder="Write Note..." maxlength="90"></textarea>
+                <i class="fas fa-check-circle" id="check-icon"></i>
+                <i class="fas fa-times-circle" id="x-icon"></i>
+            </form>
+        </div>
+    </div>
+    <!-- link js -->
+    <script src="script.js"></script>
+</body>
+</html>
